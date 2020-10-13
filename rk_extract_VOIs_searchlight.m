@@ -3,7 +3,7 @@ clear all
 
 % the following lists must be shortened and adjusted (so if you have 4 regions, then each list has to have 4 elements ..
 
-voinames={'rEVC','lEVC','rFFA','lFFA','rAmy','lAmy','rDLPFC','lDLPFC','ORB'}; % name of the ROIs/VOIs to be extracted
+voinames={'rEVC','lEVC','rFFA','lFFA','rAmy','lAmy','rDLPFC','lDLPFC','ORB'}; % name of the ROIs/VOIs to be extracted/ must be similar to the names of the mask-files (without .nii extension)
 voithresh=[0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05]; % statistical threshold to use for contrast
 voithreshcorr={'none','none','none','none','none','none','none','none','none'}; % "none" or "FWE" correction for multiple comparisons
 voicontrast=[3 3 3 3 3 3 3 3 3]; % the threshold of the contrast used to define active voxels for Singular Value Decomposition / Eigenvariate
